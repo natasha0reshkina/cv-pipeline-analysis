@@ -1,3 +1,18 @@
-input_size: 640
-batch_size: 1
-device: cpu
+seed: 42
+
+data:
+  clean_dir: "/content/drive/MyDrive/kursovaya_images/clean"
+  hard_dir: "/content/drive/MyDrive/kursovaya_images/stress_hard_cases"
+  high_res_dir: "/content/drive/MyDrive/kursovaya_images/high-res_large"
+  results_dir: "/content/drive/MyDrive/kursovaya_results"
+
+experiment:
+  input_sizes:
+    - 320
+    - 640
+    - 960
+  warmup: 2
+  repeats: 5
+
+pipeline:
+  default_input_size: 640

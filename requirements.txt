@@ -1,2 +1,10 @@
-opencv-python
 numpy
+pandas
+matplotlib
+opencv-python
+Pillow
+scikit-image
+psutil
+fiftyone
+PyYAML
+jupyter

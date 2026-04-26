@@ -1,1 +1,8 @@
+[project]
+name = "cv-pipeline-analysis"
+version = "0.1.0"
+description = "Курсовой проект по анализу производительности, качества и устойчивости пайплайна компьютерного зрения"
+requires-python = ">=3.10"
 
+[tool.setuptools]
+package-dir = {"" = "src"}
